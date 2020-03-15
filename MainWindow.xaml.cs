@@ -24,6 +24,8 @@ namespace Timer
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
+	
+	// Needs to be refactored to follow the MVVM design pattern.
     public partial class MainWindow : Window
     {
 		private int time;
