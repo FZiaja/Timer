@@ -10,5 +10,6 @@ Some visual and auditory cues need to be added to let users know when a timer ha
 
 Ideas for additional features:
 
-1) Allow users to set checkpoints within each timer to provide cues once a timer reaches a certain point (eg. 5 minutes left).
+1) Allow users to set checkpoints within each timer to provide cues once a timer reaches a certain point (eg. 5 minutes left). 
+	This can be done by adding a 'TimerCheckpoints' table to the database, with a foreign key to the 'Timers' table.
 2) Allow users to run multiple timers at once.
